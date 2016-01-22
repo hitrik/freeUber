@@ -6,7 +6,7 @@ body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: #fff url("../img/uberbg.jpg") no-repeat;
+  background: #ffffff url("../img/uberbg.jpg") no-repeat;
   background-size: cover;
 }
 .container {
@@ -34,9 +34,9 @@ body {
   background-color: rgba(0, 0, 0, 0.7);
   margin: 5px;
   min-height: 200px;
-  vertical-align: middle;
   font-size: 18px;
   font-weight: 700;
+  vertical-align: top;
 }
 .container_inner .left span,
 .container_inner .right span {
@@ -58,6 +58,20 @@ body {
 }
 .container_inner .right {
   background-color: rgba(255, 255, 255, 0.7);
+}
+.container_inner .left {
+  padding: 38px 5px;
+}
+.container_inner .text {
+  width: 730px;
+  font-size: 25px;
+  color: #111;
+  line-height: 28px;
+  font-weight: 400;
+  margin: 20px auto;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 10px;
+  border-radius: 3px;
 }
 .container_inner .apple_app,
 .container_inner .android_app,
