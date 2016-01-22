@@ -1,0 +1,83 @@
+body, body * {
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  padding: 0;
+  margin:0;
+  background: #fff url("../img/uberbg.jpg") no-repeat;
+  background-size: cover;
+}
+
+.container {
+    width: 100%;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+.container_inner {
+  max-width: 860px;
+  height: 600px;
+  padding: 30px;
+  margin: 50px auto;
+  background-color: rgba(255,255,255,0.6);
+  border-radius: 10px;
+  text-align: center;
+  .info {
+    font-size: 25px;
+    font-weight: 900;
+  }
+  .left, .right {
+    width: 45%;
+    padding: 20px 5px;
+    display: inline-block;
+    background-color: rgba(0,0,0,.7);
+    margin: 5px;
+    min-height: 200px;
+    vertical-align: middle;
+    font-size: 18px;
+    font-weight: 700;
+    span {
+      display: block;
+      color: #fff;
+      font-size: 35px;
+      padding: 10px;
+    }
+    em {
+      display: inline-block;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 60px;
+      color: #fff;
+      background-color: red;
+      padding: 15px;
+      border-radius: 5px;
+    }
+  }
+  .right {
+    background-color: rgba(255, 255, 255, .7);
+  }
+  .apple_app, .android_app, .win_app {
+    width: 180px;
+    height: 55px;
+    display: block;
+    margin: 3px auto;
+    background-size: cover;
+    background-repeat: none;
+    background-position: center center;
+  }
+  .apple_app {
+    background-image: url("../img/apple.png");
+  }
+  .android_app {
+    background-image: url("../img/android.png");
+  }
+  .win_app {
+    background-image: url("../img/window.png");
+  }
+  .info_tagline {
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+  }
+}
